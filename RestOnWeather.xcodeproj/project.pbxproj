@@ -56,15 +56,23 @@
 		D901BDD1280E9C3400A4AF75 /* RestOnWeather */ = {
 			isa = PBXGroup;
 			children = (
-				D901BDD2280E9C3400A4AF75 /* AppDelegate.swift */,
-				D901BDD4280E9C3400A4AF75 /* SceneDelegate.swift */,
+				D901BDE6280E9C8800A4AF75 /* Support Files */,
 				D901BDD6280E9C3400A4AF75 /* ViewController.swift */,
 				D901BDD8280E9C3400A4AF75 /* Main.storyboard */,
-				D901BDDB280E9C3600A4AF75 /* Assets.xcassets */,
-				D901BDDD280E9C3600A4AF75 /* LaunchScreen.storyboard */,
-				D901BDE0280E9C3600A4AF75 /* Info.plist */,
 			);
 			path = RestOnWeather;
+			sourceTree = "<group>";
+		};
+		D901BDE6280E9C8800A4AF75 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D901BDE0280E9C3600A4AF75 /* Info.plist */,
+				D901BDD2280E9C3400A4AF75 /* AppDelegate.swift */,
+				D901BDD4280E9C3400A4AF75 /* SceneDelegate.swift */,
+				D901BDDD280E9C3600A4AF75 /* LaunchScreen.storyboard */,
+				D901BDDB280E9C3600A4AF75 /* Assets.xcassets */,
+			);
+			path = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +297,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z7983Z54YD;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RestOnWeather/Info.plist;
+				INFOPLIST_FILE = "RestOnWeather/Support Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -304,7 +312,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,7 +325,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z7983Z54YD;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RestOnWeather/Info.plist;
+				INFOPLIST_FILE = "RestOnWeather/Support Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -332,7 +340,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
